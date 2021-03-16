@@ -66,7 +66,7 @@ table {
 .bnr_con {}
 .bnr_con figure img {width: 500px;max-width: 100%;}
 
-#main_area {max-width: 515px;margin: 0 auto;padding: 0 10px; position: relative; z-index: 10;}
+#main_area {max-width: 505px;margin: 0 auto;padding: 0 10px; position: relative; z-index: 10;}
 .main_con {text-align: center;color: #fff;}
 main {}
 main h3 {font-weight: 700;font-size: 22px;line-height: 100%;margin: 20px 0 10px;}
