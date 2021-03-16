@@ -30,6 +30,10 @@ body {
 	padding: 20px 0 20px;
 	font-family: "Exo";
 	background: url(main-bg.gif);
+	background: linear-gradient(330deg, #00ff6f,  #0054ff);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
 }
 ol, ul {
 	list-style: none;
@@ -47,13 +51,23 @@ table {
 	border-spacing: 0;
 }
 
+@-webkit-keyframes AnimationName {
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:61% 0%}
+    50%{background-position:40% 100%}
+    100%{background-position:61% 0%}
+}
 
-#banner {max-width: 500px;margin: 0 auto;padding: 10px;background: #dfdfdf;box-shadow: 0 0 8px rgb(0,0,0);width: 90%;}
+#banner {max-width: 500px;margin: 0 auto;padding: 10px;background: #dfdfdf;box-shadow: 0 0 8px rgb(0,0,0);width: 90%;position: relative; z-index: 10;}
 .bnr_con {}
 .bnr_con figure img {width: 500px;max-width: 100%;}
 
-#main_area {max-width: 500px;margin: 0 auto;padding: 0 10px;}
+#main_area {max-width: 515px;margin: 0 auto;padding: 0 10px; position: relative; z-index: 10;}
 .main_con {text-align: center;color: #fff;}
 main {}
 main h3 {font-weight: 700;font-size: 22px;line-height: 100%;margin: 20px 0 10px;}
-main p {line-height: 25px;}
+main p {line-height: 28px;font-size: 16px;}
