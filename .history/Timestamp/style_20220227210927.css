@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Exo";
+    background: linear-gradient(270deg, #00ff6f, #0054ff);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+    display: flex;
+    flex-flow: column;
+    padding: 50px 0;
+}
+
+button#myBtn {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: 0;
+    background: #f2f2f2;
+    font-family: "Exo";
+    
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+p#answer {
+    text-align: center;
+    background: rgba(255,255,255,0.2);
+    font-size: 130px;
+    width: max-content;
+    padding: 60px;
+    max-width: 100%;
+    margin: 20px auto 0;
+    line-height: 100%;
+    display: none;
+}
+
+p#answer.visible {
+    display: block;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Stamp Generator</title>
+
+    <script>
+        
+        function displayDate() {
+            var ST = document.getElementById("date_input").innerHTML.Date;
+            document.getElementById("answer").innerHTML = new Date(document.getElementById("date_input").innerHTML);
+        }
+    </script>
+</head>
+<body>
+    <input type="number" name="date_input" id="date_input">
+    <button id="myBtn" onclick="displayDate()">Generate Date</button>
+
+    <p id="answer"></p>
+</body>
+</html>
+
