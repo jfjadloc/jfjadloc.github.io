@@ -48,9 +48,9 @@ button#myBtn:hover {
 p#answer {
     text-align: center;
     background: rgba(255,255,255,0.2);
-    font-size: 130px;
+    font-size: 11vw;
     width: max-content;
-    padding: 60px;
+    padding: 40px;
     max-width: 100%;
     margin: 20px auto 0;
     line-height: 100%;
